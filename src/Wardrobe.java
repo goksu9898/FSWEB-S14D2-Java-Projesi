@@ -1,0 +1,27 @@
+public class Wardrobe {
+    public int getWidth() {
+        return width;
+    }
+
+    public int getHeight() {
+        return height;
+    }
+
+    public double getWeight() {
+        return weight;
+    }
+
+    private int width;
+    private int height;
+    private double weight;
+
+    public Wardrobe(int width, int height, double weight) {
+        this.width = width;
+        this.height = height;
+        this.weight = weight;
+
+    }
+    public void add(){
+        System.out.println("Wardrobe added into Bedroom.");
+    }
+}
